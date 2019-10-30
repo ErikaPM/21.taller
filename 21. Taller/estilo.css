@@ -1,0 +1,51 @@
+* {
+  padding: 50 px;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(images/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+form {
+  background-color: gray;
+  width: 98%;
+  max-width: 300px;
+  margin: auto;
+  color: black;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+label {
+  font-size: 30px;
+}
+
+input {
+  font-size: 20px;
+}
+
+header {
+  text-align: center;
+  font-style: italic;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.errores {
+  font-size: 20px;
+  font-style: italic;
+  color: black;
+}
+
+#boton {
+  background: #1e90ff;
+  font-style: italic;
+  font-size: 15px;
+}

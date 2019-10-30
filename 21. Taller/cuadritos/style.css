@@ -1,0 +1,15 @@
+.caja {
+background: orange;
+border:1px #000 solid;
+padding: 20px 0;
+margin: 10px;
+width: 60px;
+text-align: center;
+}
+
+#caja {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 300px;
+    align-content: flex-start;
+}

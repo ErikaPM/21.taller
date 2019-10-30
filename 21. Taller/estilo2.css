@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.contenedor {
+  display: grid;
+  grid-template-rows: 1fr, 1fr;
+  grid-template-columns: 20vw;
+  /* height: auto; */
+  border: black, 2px, solid;
+  /* padding: 10px; */
+}
+
+.usuarioSaludo {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  height: 170px;
+  /* max-width: 300px;  */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin: 0;
+  display: grid;
+  grid-template-rows: auto, auto;
+  grid-template-columns: 30%, 70%;
+}
+
+.usuario {
+  color: blue;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  height: auto;
+}
+
+.h3 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  height: auto;
+  justify-content: left;
+}
+
+.imagenUsuario {
+  background-image: url(images/usuario.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* width: 100px;  */
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  height: 150px;
+}
+
+.listasTareas {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  background-color: lightgray;
+  height: 200px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  /* max-width: auto; */
+}
+
+.nuevasListas {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  background-image: url(images/fondo.jpg);
+  background-size: cover;
+  height: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  /* max-width: 300px;  */
+}
+
+.misTareas {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  background-color: #bc8f8f;
+  height: 500px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  /* max-width: auto; */
+}
+
+#tareasPendientes {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  /* padding: 10px; */
+  /* width: auto; */
+}
+
+/* ESTILO DEL MENSAJE */
+
+#tareasImpresas {
+  font-size: 20 px;
+  text-align: justify;
+  font-family: serif;
+}
